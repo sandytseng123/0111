@@ -1,0 +1,58 @@
+* {
+  font-family: monospace;
+}
+
+body {
+  height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+}
+
+header.jumbotron {
+  margin-bottom: 0px;
+  text-align: center;
+  background-image: url(https://image.shutterstock.com/image-vector/vector-creative-illustration-business-graphic-450w-1045282858.jpg);
+  background-size: cover;
+  mix-blend-mode: multiply;
+  background-attachment: fixed;
+}
+header.jumbotron .container {
+  text-align: center;
+  color: #003C9D;
+  padding: 100px 0px;
+}
+header.jumbotron hr {
+  max-width: 300px;
+  border: solid 2px #D0B0E8;
+}
+header.jumbotron h4 {
+  color: #FF1493;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background-color: #D0B0E8;
+}
+section#section_ask .col-sm-5.img {
+  background-image: url(http://www.mottimes.com/image/news/6420150714150836.jpg);
+  height: 270px;
+  background-size: cover;
+  mix-blend-mode: multiply;
+}
+section#section_ask h2 {
+  margin-top: 130 px;
+  padding: 0px 20px;
+}
+
+section#section_about img {
+  width: 100%;
+}
+section#section_about .img_wrap {
+  height: 200 px;
+  overflow: hidden;
+}
